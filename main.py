@@ -8,8 +8,6 @@ def palindromy(x):
     zmienna slowo przechowuje dany wyraz który nastepnie wprowadzony jest do funkcji
     jesli podany wyraz zgadza sie z założeniem funkcji wyskakuje "Tak"
     natomiast jak wyraz nie jest rozpoznany jako palindrom to dostajemy informacje "Nie"
-    :param x:
-    :return:
     """
     l = len(x)
     for p in range (l-1):
